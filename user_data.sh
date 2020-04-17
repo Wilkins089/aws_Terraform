@@ -1,6 +1,6 @@
 #! /bin/bash
 sudo apt-get update
-sudo apt-get -y install nginx
+sudo apt-get -y install apache2
 sudo service nginx stop
 sudo apt-get -y install git
 sudo git clone https://github.com/Wilkins089/urban-site.git /var/www/urban-site
